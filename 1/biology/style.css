@@ -1,0 +1,154 @@
+@font-face{
+    src: url(fonts/JF-Flat-Regular.ttf);
+    font-family: nos;
+}
+/* body{
+    background-color: #f3f3f3;
+} */
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    float: left;
+    border-bottom:solid 2px #489c90 ;
+    padding: 10px 0;
+    /* margin-bottom: 10px; */
+}
+#header .logo {
+    float: left;
+    width: 20%;
+}
+#header .logo  img {
+    width: 130px;
+    height: 80px;
+    /* margin: 0px; */
+}
+
+#header .menu {
+    width: 75%;
+    float: right;
+}
+#header .menu ul {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    float: right;
+}
+
+#header .menu ul li {
+    display: inline-block;
+    float: right;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin: 0 10px;
+    font-family: nos;
+    font-weight: bold;
+    color:#489c90;
+
+
+}
+
+#header .menu ul li#button  {
+    background-color: #489c90;
+    color: white;
+    border-radius: 50px;
+    font-family: nos; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+#header .menu ul li#button a {
+    color:#fff;
+    text-decoration: none;
+}
+#header .menu ul li#button:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    color: white;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.video-size {
+    float: left;
+    width: 100%;
+    margin:10px 0;
+}
+.control {
+    width: 100%;
+    float: left;
+}
+
+.control .right , .control .left {
+    float: left;
+    width: 48%;
+    padding: 0 1%;
+
+    text-align: right;
+}
+.control .right {
+    text-align: left;
+}
+
+.control .right button , .control .left button {
+    background-color: #489c90;
+    color: white;
+    border-radius: 50px; 
+    font-size: 20px;
+    font-family: nos;
+/* 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform; */
+}
+
+/* .control .right button, .control .left button:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    color: white;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+} */
+
+
+/* @media (max-width:775px){
+    .margin-new{
+        width: 100%;
+        margin-top: 5px;
+        display: block;
+    
+    }
+} */
+
+@media (max-width:775px){
+    body {
+        width: auto;
+    }
+    #header .logo , #header .menu {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:775px){
+
+}
+
+@media (max-width:775px){
+
+    
+}
+
+@media (max-width:775px){
+
+    
+}
+
+
